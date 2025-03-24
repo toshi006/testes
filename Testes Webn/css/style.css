@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 2rem;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    position: relative;
+    background-color: grey;
+}
+li ul{
+    position: absolute;
+    top: 25px;
+    margin-top: 15px;
+    background-color: grey;
+    display:none
+}
+
+a{  
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border: solid 1px black;
+}
+
+li ul li{
+    display: block;
+    width: 150px;
+}
+ul li:hover ul, li ul li.over ul{
+    display: block;
+}
+
+li ul li.over ul{
+    display: block;
+    position: relative;
+}
