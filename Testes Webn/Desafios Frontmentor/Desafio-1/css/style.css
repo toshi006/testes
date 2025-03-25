@@ -16,7 +16,7 @@ body{
 }
 
 .externa{
-    displayflex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,7 @@ body{
     border-radius: 20px ;
     padding: 16px 16px 40px 16px;
     gap: 24px;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0, 20%);
 }
 
 .texts{
