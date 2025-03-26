@@ -32,6 +32,8 @@ img{
     gap: 24px;
     box-shadow: 10px 10px;
     border: solid 1px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease-in-out
 }
 .text{
     display: flex;
@@ -58,6 +60,7 @@ img{
 .large {
     font-size: 24px;
     font-weight: bold;
+    transition: color 0.5s ease-in-out
 }
 
 .light{
@@ -76,4 +79,13 @@ img{
     font-size: 14px;
     font-weight: bold;
     font-weight: 800;
+}
+
+.externa:hover{
+    transition: 0.5s;
+    box-shadow: 20px 20px black;
+}
+.externa:hover .large {
+    color: #F4D04E;
+    transition: color 0.5s ease-in-out;
 }
